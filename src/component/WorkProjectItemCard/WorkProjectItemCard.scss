@@ -1,0 +1,14 @@
+.workProjectCard {
+  transition: transform 200ms ease-in;
+  border: 1px solid black;
+  .workProjectCard__image {
+    width: auto;
+    height: 300px;
+    transition: 200ms all;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

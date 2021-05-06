@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import "./variable.scss";
+@import "./common_class.scss";
+
+* {
+  font-size: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $ff;
+  font-size: $fs-16;
+  background: $bg-white;
+  color: $text-primary;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 100%;
+  }
+
+  @media only screen and (min-device-width: 768px) {
+    width: 760px;
+  }
+  @media only screen and (min-device-width: 992px) {
+    width: 992px;
+  }
+  @media screen and (min-device-width: 1200px) {
+    width: 1200px;
+  }
+}
